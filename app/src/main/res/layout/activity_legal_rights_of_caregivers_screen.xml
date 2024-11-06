@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header containing back arrow and title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Back arrow"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:paddingEnd="8dp"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Legal Rights of Caregivers"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Button for language selection, aligned to the right -->
+    <Button
+        android:id="@+id/button_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:backgroundTint="#D4AF37"
+        android:padding="8dp"
+        android:text="✔ English" />
+
+    <!-- Main title for legal rights -->
+    <TextView
+        android:id="@+id/title_legal_rights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Legal Rights of Caregivers"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Subtitle summarizing legal rights -->
+    <TextView
+        android:id="@+id/subtitle_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Summary of Legal Rights Related to Escorting"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Description providing context about legal rights -->
+    <TextView
+        android:id="@+id/description_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Caregivers play a crucial role in the escorting process, and understanding their legal rights is essential for effective support and advocacy for tamariki and rangatahi."
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Title for key considerations -->
+    <TextView
+        android:id="@+id/title_key_considerations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Key Considerations"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Subtitle for right to information -->
+    <TextView
+        android:id="@+id/subtitle_right_to_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Right to Information"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Description detailing the right to information -->
+    <TextView
+        android:id="@+id/description_right_to_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Caregivers have the right to receive detailed information about the escorting process and the reasons behind it."
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Title for further information resources -->
+    <TextView
+        android:id="@+id/title_further_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Links for Further Information"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Description for Oranga Tamariki resource -->
+    <TextView
+        android:id="@+id/description_oranga_tamariki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Oranga Tamariki - Caregiver Rights"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Description for Community Law resource -->
+    <TextView
+        android:id="@+id/description_community_law"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Community Law - Legal Rights of Caregivers"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</LinearLayout>

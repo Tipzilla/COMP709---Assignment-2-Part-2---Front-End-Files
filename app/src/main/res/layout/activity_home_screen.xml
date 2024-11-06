@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Placeholder Logo ImageView -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="start"
+        android:src="@drawable/logo_placeholder_image" />
+
+    <!-- Top TextView -->
+    <TextView
+        android:id="@+id/topTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="AWAI Awhi Whanau"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Underneath TextView -->
+    <TextView
+        android:id="@+id/underneathTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Your trusted support for Tamariki and Rangatahi"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <!-- Button 1 Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <!-- Button 1 -->
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D4AF37"
+            android:padding="8dp"
+            android:text="✔ English" />
+    </LinearLayout>
+
+    <!-- Button 2 -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0E5EAD"
+        android:padding="32dp"
+        android:text="Information" />
+
+    <!-- Button 3 -->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0E5EAD"
+        android:padding="32dp"
+        android:text="Process of Escorting" />
+
+    <!-- Button 4 -->
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0E5EAD"
+        android:padding="32dp"
+        android:text="Legal Rights of Parent" />
+
+    <!-- Button 5 -->
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0E5EAD"
+        android:padding="32dp"
+        android:text="Legal Rights of Caregivers" />
+
+</LinearLayout>

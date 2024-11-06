@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header with back arrow and title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Back arrow"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:paddingEnd="8dp"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Information"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Button aligned to the right -->
+    <Button
+        android:id="@+id/button_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:backgroundTint="#D4AF37"
+        android:padding="8dp"
+        android:text="✔ English" />
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/title_escorting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="What is Escorting?"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Subtitle TextView -->
+    <TextView
+        android:id="@+id/subtitle_definition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Definition of Escorting"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Description TextView -->
+    <TextView
+        android:id="@+id/description_definition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Escorting refers to the process of removing, relocating, and uplifting tamariki (children) and rangatahi (young people) from their current place of care when necessary. This action is usually taken when the environment poses a risk to the well-being of the children involved."
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Title TextView for Types of Escorts -->
+    <TextView
+        android:id="@+id/title_types_of_escorts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Types of Escorts"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Subtitle TextView for Voluntary Escorts -->
+    <TextView
+        android:id="@+id/subtitle_voluntary_escorts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Voluntary Escorts"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Description TextView for Voluntary Escorts -->
+    <TextView
+        android:id="@+id/description_voluntary_escorts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="These occur when caregivers or parents agree to the relocation of the child, typically in circumstances where it is deemed beneficial for their well-being."
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Subtitle TextView for Involuntary Escorts -->
+    <TextView
+        android:id="@+id/subtitle_involuntary_escorts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Involuntary Escorts"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Description TextView for Involuntary Escorts -->
+    <TextView
+        android:id="@+id/description_involuntary_escorts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="In these cases, escorting is carried out without the consent of the caregiver or parent, usually due to an immediate risk to the child's safety."
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Title TextView for Further Information -->
+    <TextView
+        android:id="@+id/title_further_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Links for Further Information"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Description TextView for Further Information -->
+    <TextView
+        android:id="@+id/description_oranga_tamariki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Oranga Tamariki - Escorting Information"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Description TextView for Community Law -->
+    <TextView
+        android:id="@+id/description_community_law"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Community Law - Escorting Resources"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

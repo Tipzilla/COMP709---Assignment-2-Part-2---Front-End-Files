@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header with back arrow and title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Back arrow"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:paddingEnd="8dp"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Legal Rights of Parent"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Button aligned to the right for language selection -->
+    <Button
+        android:id="@+id/button_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:backgroundTint="#D4AF37"
+        android:padding="8dp"
+        android:text="✔ English" />
+
+    <!-- Title TextView for legal rights -->
+    <TextView
+        android:id="@+id/title_legal_rights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Legal Rights of Parents"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Subtitle TextView for summary of legal rights -->
+    <TextView
+        android:id="@+id/subtitle_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Summary of Legal Rights Related to Escorting"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Description TextView for legal rights summary -->
+    <TextView
+        android:id="@+id/description_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Parents have specific legal rights during the escorting process. Understanding these rights is crucial to ensure that parents are informed and can advocate for their tamariki and rangatahi effectively."
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Title TextView for important points -->
+    <TextView
+        android:id="@+id/title_important_points"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Important Points"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Subtitle TextView for right to information -->
+    <TextView
+        android:id="@+id/subtitle_right_to_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Right to Information"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Description TextView for right to information -->
+    <TextView
+        android:id="@+id/description_right_to_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Parents have the right to be informed about the reasons for the escorting and the procedures involved."
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Subtitle TextView for right to representation -->
+    <TextView
+        android:id="@+id/subtitle_right_to_representation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Right to Representation"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Description TextView for right to representation -->
+    <TextView
+        android:id="@+id/description_right_to_representation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Parents can seek legal representation during the escorting process to ensure their rights are upheld."
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Title TextView for further information -->
+    <TextView
+        android:id="@+id/title_further_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Links for Further Information"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Description TextView for Oranga Tamariki -->
+    <TextView
+        android:id="@+id/description_oranga_tamariki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Oranga Tamariki - Parental Rights"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Description TextView for Community Law -->
+    <TextView
+        android:id="@+id/description_community_law"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Community Law - Legal Rights of Parents"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</LinearLayout>

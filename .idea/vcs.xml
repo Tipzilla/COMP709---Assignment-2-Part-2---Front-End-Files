@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Assignment 1 Part 1/1. Class App Tutorial/ClassAppTutorial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assignment 1 Part 1/1. Class App Tutorial/Guessing Game - Made for fun" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assignment 1 Part 2/ImageSearchApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assignment 1 Part 2/MVVMTo-Do List App" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assignment 1 Part 2/RealtimedatabaseKotlin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assignment 1 Part 2/SimpleCachingExample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assignment 1 Part 2/SplashScreen" vcs="Git" />
+  </component>
+</project>
